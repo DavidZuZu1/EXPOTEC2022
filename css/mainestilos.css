@@ -9,6 +9,8 @@ body{
 #logoIzquierda{
 animation: mymove;
 animation-duration: 1s;
+height: 100%;
+margin-top: -25px;
 }
 #fondo{
 height: 760px;
@@ -29,8 +31,18 @@ animation-duration: 2s;
 #menuItem{
   font-family: 'Quicksand', sans-serif;
   margin-left: 555px;
-  word-spacing:  130px;
+  word-spacing:  100px;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
 }
 p{
-  font-family: 'Quicksand', sans-serif;
+      font-family: 'Roboto Slab', serif;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:active{
+  color: black;
 }
