@@ -1,0 +1,36 @@
+@import url(imports.css);
+body{
+  scroll-behavior: smooth;
+  font-family: 'Quicksand', sans-serif;
+  background-repeat: no-repeat;
+  background: rgb(124,190,213);
+  background: linear-gradient(283deg, rgba(124,190,213,0.8659663694579394) 0%, rgba(160,224,68,1) 88%)
+}
+#logoIzquierda{
+animation: mymove;
+animation-duration: 1s;
+}
+#fondo{
+height: 760px;
+width: 545px;
+opacity: 45%;
+margin-top: -58px;
+}
+
+#logo{
+z-index: 102391239129;
+margin-top: 295px;
+margin-left: -545px;
+position: absolute;
+animation: mymove1;
+animation-duration: 2s;
+}
+
+#menuItem{
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 555px;
+  word-spacing:  130px;
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+}

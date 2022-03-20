@@ -1,0 +1,8 @@
+@keyframes mymove {
+  0%   {top: -10%; background-color: gray; width: 100px; opacity: 100%;}
+  100% {top: 100px; background-color: white; width: 544px; opacity: 40%;}
+}
+@keyframes mymove1 {
+  0%   {top: 0%;  width: 60px; opacity: 20%;}
+  100% {top: 10px; width: 420px; opacity: 100%;}
+}
